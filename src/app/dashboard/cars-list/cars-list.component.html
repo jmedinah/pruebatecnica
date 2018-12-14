@@ -1,0 +1,9 @@
+<mat-toolbar class="subheader">
+  <mat-form-field class="example-full-width">
+    <input [(ngModel)]="search" placeholder="Search by maker" matInput>
+  </mat-form-field>
+  <mat-icon class="example-icon">search</mat-icon>
+</mat-toolbar>
+<div *ngFor="let item of (carsList |  filter: search )">
+  <app-car-card [carInfo]="item"></app-car-card>
+</div>

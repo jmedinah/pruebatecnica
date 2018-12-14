@@ -1,13 +1,13 @@
-<mat-toolbar >
-  <div style="width: 100%">
-    sasas
-    <!-- <app-logout></app-logout> -->
+<mat-toolbar>
+  <div class="header">
+    <button class="header__btn-menu" mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <a mat-menu-item routerLink='/car-list' routerLinkActive="router-link-active">Car list </a>
+      <a mat-menu-item routerLink='/compare' routerLinkActive="router-link-active">Compare</a>
+    </mat-menu>
+    Cars
   </div>
 </mat-toolbar>
-<div class="subheader">
-  <button class="subheader__btn-menu" mat-button [matMenuTriggerFor]="menu">Menu</button>
-  <mat-menu #menu="matMenu">
-    <a mat-menu-item [routerLink]="['./employees']" routerLinkActive="router-link-active">Employess </a>
-    <a mat-menu-item [routerLink]="['./projects']" routerLinkActive="router-link-active">Projects</a>
-  </mat-menu>
+<div>
+  <router-outlet></router-outlet>
 </div>

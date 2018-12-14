@@ -10,7 +10,7 @@ export class NotFoundComponent implements OnInit {
 
   constructor(private router: Router) {
     setTimeout(function() {
-      // router.navigate(["./login"]);
+      router.navigate([""]);
     }, 3000);
   }
 

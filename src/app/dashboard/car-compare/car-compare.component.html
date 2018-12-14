@@ -1,0 +1,17 @@
+<div style="background: black">
+  <mat-form-field>
+    <mat-select placeholder="Please, choose a car">
+      <mat-option *ngFor="let car of carsList" (click)="showCarDetails(car.id,'one')" [value]="car.id">{{car.model}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-select placeholder="Please, choose a car">
+      <mat-option *ngFor="let car of carsList" (click)="showCarDetails(car.id,'two')" [value]="car.id">{{car.model }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div>
+    <button mat-raised-button color="primary">Compare</button>
+  </div>
+</div>
+<app-car-detail [id]="carIdOne"></app-car-detail>
+<app-car-detail [id]="carIdTwo"></app-car-detail>
