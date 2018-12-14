@@ -1,5 +1,22 @@
-<p>
-  car-card works!
-</p>
-<pre> {{carInfo | json}}</pre>
-<button mat-button [routerLink]="['/details/', carInfo.id]" class="car-card_actions_button">Details</button>
+<mat-card class="card">
+  <div>
+    <img class="card__image" mat-card-image [src]="carInfo.pictureUrl" alt="">
+  </div>
+  <mat-card-content>
+    <span class="card__detail">
+      Model: {{carInfo.model}}
+    </span>
+    <span class="card__detail">
+      Year: {{carInfo.year}}
+    </span>
+    <span class="card__detail">
+      Manufature: {{carInfo.make}}
+    </span>
+    <span class="card__detail">
+      Price $: {{carInfo.price}}
+    </span>
+  </mat-card-content>
+  <mat-card-actions style="margin: 5px;">
+    <button mat-button [routerLink]="['/details/', carInfo.id]" class="car-card_actions_button card__btn-detail">Details</button>
+  </mat-card-actions>
+</mat-card>

@@ -11,6 +11,7 @@ export class CarCompareComponent implements OnInit {
   carsList: Car[];
   carIdOne: number;
   carIdTwo: number;
+  carIdThree: number;
 
   constructor(private carService: CarsService) {
     this.carService.getData("cars").subscribe((response: Car[]) => {
@@ -21,10 +22,19 @@ export class CarCompareComponent implements OnInit {
   ngOnInit() {}
 
   showCarDetails(car, option) {
-    if (option === "two") {
-      this.carIdOne = car;
-    } else {
-      this.carIdTwo = car;
+    switch (option) {
+      case "one":
+        this.carIdOne = car;
+        break;
+      case "two":
+        this.carIdTwo = car;
+
+        break;
+      case "three":
+        this.carIdThree = car;
+        break;
+      default:
+        break;
     }
   }
 }

@@ -1,3 +1,36 @@
-<div *ngIf="car$ | async as car">
-  {{car | json}}
+<div *ngIf="car" class="content">
+  <div >
+    <mat-card class="card">
+      <div>
+        <img class="card__image" mat-card-image [src]="car.pictureUrl" alt="">
+      </div>
+      <mat-card-content>
+        <span class="card__detail">
+          Model: {{car.model}}
+        </span>
+        <span class="card__detail">
+          Year: {{car.year}}
+        </span>
+        <span class="card__detail">
+          Manufacturer: {{car.make}}
+        </span>
+        <span class="card__detail">
+          Price $: {{car.price}}
+        </span>
+
+        <span class="card__detail">
+          HP: {{car.HP}}
+        </span>
+        <span class="card__detail">
+          Weight: {{car.weight}}
+        </span>
+        <span class="card__detail">
+          Transmition: {{car.transmition}}
+        </span>
+        <p class="card__description">
+          Description: {{car.description}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>

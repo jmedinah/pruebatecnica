@@ -1,0 +1,24 @@
+.card {
+  max-width: 315px;
+  margin: 15px;
+
+  &__image {
+    width: 97%;
+    margin: 5px;
+    height: 200px;
+  }
+
+  &__detail {
+    display: block;
+    margin: 5px;
+  }
+
+  &__btn-detail {
+    background: #212121;
+  }
+
+
+  .mat-card-image:first-child {
+    margin-top: 0px;
+  }
+}

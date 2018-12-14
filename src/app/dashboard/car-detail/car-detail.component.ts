@@ -1,7 +1,6 @@
 import { Component, OnInit, Input, SimpleChanges } from "@angular/core";
 import { CarsService } from "src/app/services/cars.service";
 import { Car } from "src/app/services/models/car";
-import { Observable } from "rxjs";
 import { ActivatedRoute } from "@angular/router";
 
 @Component({
@@ -10,7 +9,7 @@ import { ActivatedRoute } from "@angular/router";
   styleUrls: ["./car-detail.component.scss"]
 })
 export class CarDetailComponent implements OnInit {
-  car$: Observable<Car>;
+  car: Car;
   @Input() id: number;
   constructor(private route: ActivatedRoute, private carService: CarsService) {
     this.route.params.subscribe(params => {
@@ -24,10 +23,10 @@ export class CarDetailComponent implements OnInit {
   ngOnChanges(changes: SimpleChanges): void {
     console.log(changes);
     this.getCarDetails(changes.id.currentValue);
-    //Called before any other lifecycle hook. Use it to inject dependencies, but avoid any serious work here.
-    //Add '${implements OnChanges}' to the class.
   }
   getCarDetails(id) {
-    this.car$ = this.carService.getData<Car>("cars/?id=" + id);
+    this.carService
+      .getData("cars/?id=" + id)
+      .subscribe((data: Car) => (this.car = data[0]));
   }
 }

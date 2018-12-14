@@ -1,0 +1,29 @@
+.content {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+
+  &__image {
+    margin: auto;
+    width: 100%;
+    max-height: 45vh;
+    min-height: 45vh;
+  }
+
+  &__detail {
+    display: block;
+    margin: 5px;
+  }
+
+  &__description {
+    text-align: justify;
+  }
+
+  .mat-card-image:first-child {
+    margin-top: 0px;
+  }
+}

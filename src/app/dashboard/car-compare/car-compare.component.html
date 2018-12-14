@@ -1,17 +1,27 @@
-<div style="background: black">
-  <mat-form-field>
+<div style="width: 100%;
+display: flex;
+background: #212121;
+flex-direction: row;
+justify-content: center;">
+  <mat-form-field class="select">
     <mat-select placeholder="Please, choose a car">
       <mat-option *ngFor="let car of carsList" (click)="showCarDetails(car.id,'one')" [value]="car.id">{{car.model}}</mat-option>
     </mat-select>
   </mat-form-field>
-  <mat-form-field>
+  <mat-form-field class="select">
     <mat-select placeholder="Please, choose a car">
       <mat-option *ngFor="let car of carsList" (click)="showCarDetails(car.id,'two')" [value]="car.id">{{car.model }}</mat-option>
     </mat-select>
   </mat-form-field>
-  <div>
-    <button mat-raised-button color="primary">Compare</button>
-  </div>
+  <mat-form-field class="select">
+    <mat-select placeholder="Please, choose a car">
+      <mat-option *ngFor="let car of carsList" (click)="showCarDetails(car.id,'three')" [value]="car.id">{{car.model }}</mat-option>
+    </mat-select>
+  </mat-form-field>
 </div>
-<app-car-detail [id]="carIdOne"></app-car-detail>
-<app-car-detail [id]="carIdTwo"></app-car-detail>
+<div style="display: flex;flex-wrap: wrap;flex-direction: row;">
+
+  <app-car-detail [id]="carIdOne"></app-car-detail>
+  <app-car-detail [id]="carIdTwo"></app-car-detail>
+  <app-car-detail [id]="carIdThree"></app-car-detail>
+</div>
