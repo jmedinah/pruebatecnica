@@ -11,7 +11,7 @@ import { ActivatedRoute } from "@angular/router";
 export class CarDetailComponent implements OnInit {
   car: Car;
   classname: string;
-//
+
   @Input() id: number;
   constructor(private route: ActivatedRoute, private carService: CarsService) {
     this.route.params.subscribe(params => {

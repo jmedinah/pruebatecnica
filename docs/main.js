@@ -211,7 +211,7 @@ module.exports = "<div class=\"content\">\n\n  <span class=\"content__number\">4
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".content {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: center;\n  margin: 50px; }\n  .content__number {\n    font-size: 10em;\n    color: #00BCD4; }\n  .content__title {\n    font-size: 3em;\n    font-weight: bold; }\n  .content__subtitle {\n    font-size: 1em; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy95dXhpL0RvY3VtZW50cy9wcm9qZWN0cy9wcnVlYmF0ZWNuaWNhL3NyYy9hcHAvbm90LWZvdW5kL25vdC1mb3VuZC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQWE7RUFDYixvQkFBbUI7RUFDbkIsWUFBVztFQUNYLHdCQUF1QjtFQUN2QixhQUFZLEVBY2I7RUFaQztJQUNFLGdCQUFlO0lBQ2YsZUFBYyxFQUNmO0VBRUQ7SUFDRSxlQUFjO0lBQ2Qsa0JBQWlCLEVBQ2xCO0VBQ0Q7SUFDRSxlQUFjLEVBQ2YiLCJmaWxlIjoic3JjL2FwcC9ub3QtZm91bmQvbm90LWZvdW5kLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICB3aWR0aDogMTAwJTtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICBtYXJnaW46IDUwcHg7XG4gIFxuICAgICZfX251bWJlciB7XG4gICAgICBmb250LXNpemU6IDEwZW07XG4gICAgICBjb2xvcjogIzAwQkNENDtcbiAgICB9XG4gIFxuICAgICZfX3RpdGxlIHtcbiAgICAgIGZvbnQtc2l6ZTogM2VtO1xuICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgfVxuICAgICZfX3N1YnRpdGxlIHtcbiAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgIH1cbiAgfVxuICAiXX0= */"
+module.exports = ".content {\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  justify-content: center;\n  margin: 50px; }\n  .content__number {\n    font-size: 10em;\n    color: #00BCD4; }\n  .content__title {\n    font-size: 3em;\n    font-weight: bold; }\n  .content__subtitle {\n    font-size: 1em; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbm90LWZvdW5kL0M6XFxVc2Vyc1xcTWFyaWEgRmVybmFuZGFcXERvY3VtZW50c1xcR0FQXFxjb25jZXNpb25hcmlvL3NyY1xcYXBwXFxub3QtZm91bmRcXG5vdC1mb3VuZC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQWE7RUFDYixvQkFBbUI7RUFDbkIsWUFBVztFQUNYLHdCQUF1QjtFQUN2QixhQUFZLEVBY2I7RUFaQztJQUNFLGdCQUFlO0lBQ2YsZUFBYyxFQUNmO0VBRUQ7SUFDRSxlQUFjO0lBQ2Qsa0JBQWlCLEVBQ2xCO0VBQ0Q7SUFDRSxlQUFjLEVBQ2YiLCJmaWxlIjoic3JjL2FwcC9ub3QtZm91bmQvbm90LWZvdW5kLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRlbnQge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgbWFyZ2luOiA1MHB4O1xyXG4gIFxyXG4gICAgJl9fbnVtYmVyIHtcclxuICAgICAgZm9udC1zaXplOiAxMGVtO1xyXG4gICAgICBjb2xvcjogIzAwQkNENDtcclxuICAgIH1cclxuICBcclxuICAgICZfX3RpdGxlIHtcclxuICAgICAgZm9udC1zaXplOiAzZW07XHJcbiAgICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgfVxyXG4gICAgJl9fc3VidGl0bGUge1xyXG4gICAgICBmb250LXNpemU6IDFlbTtcclxuICAgIH1cclxuICB9XHJcbiAgIl19 */"
 
 /***/ }),
 
@@ -465,7 +465,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/yuxi/Documents/projects/pruebatecnica/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Maria Fernanda\Documents\GAP\concesionario\src\main.ts */"./src/main.ts");
 
 
 /***/ })

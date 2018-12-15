@@ -18,7 +18,7 @@ module.exports = [[module.i, ".mat-badge-content{font-weight:600;font-size:12px;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nhtml,\nbody {\n  height: 100%; }\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif; }\napp-car-detail {\n  flex: 1; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy95dXhpL0RvY3VtZW50cy9wcm9qZWN0cy9wcnVlYmF0ZWNuaWNhL3NyYy9zdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwrRUFBK0U7QUFFL0U7O0VBRUUsYUFBWSxFQUNiO0FBRUQ7RUFDRSxVQUFTO0VBQ1Qsa0RBQWlELEVBQ2xEO0FBR0Q7RUFDSSxRQUFPLEVBQ1IiLCJmaWxlIjoic3JjL3N0eWxlcy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuXG5odG1sLFxuYm9keSB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IFJvYm90bywgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBzYW5zLXNlcmlmO1xufVxuXG5cbmFwcC1jYXItZGV0YWlsIHtcbiAgICBmbGV4OiAxO1xuICB9XG4gICJdfQ== */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nhtml,\nbody {\n  height: 100%; }\nbody {\n  margin: 0;\n  font-family: Roboto, \"Helvetica Neue\", sans-serif; }\napp-car-detail {\n  flex: 1; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9DOlxcVXNlcnNcXE1hcmlhIEZlcm5hbmRhXFxEb2N1bWVudHNcXEdBUFxcY29uY2VzaW9uYXJpby9zcmNcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLCtFQUErRTtBQUUvRTs7RUFFRSxhQUFZLEVBQ2I7QUFFRDtFQUNFLFVBQVM7RUFDVCxrREFBaUQsRUFDbEQ7QUFHRDtFQUNJLFFBQU8sRUFDUiIsImZpbGUiOiJzcmMvc3R5bGVzLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXHJcblxyXG5odG1sLFxyXG5ib2R5IHtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbmJvZHkge1xyXG4gIG1hcmdpbjogMDtcclxuICBmb250LWZhbWlseTogUm9ib3RvLCBcIkhlbHZldGljYSBOZXVlXCIsIHNhbnMtc2VyaWY7XHJcbn1cclxuXHJcblxyXG5hcHAtY2FyLWRldGFpbCB7XHJcbiAgICBmbGV4OiAxO1xyXG4gIH1cclxuICAiXX0= */", '', '']]
 
 /***/ }),
 
@@ -598,8 +598,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/yuxi/Documents/projects/pruebatecnica/node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css */"./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css");
-module.exports = __webpack_require__(/*! /Users/yuxi/Documents/projects/pruebatecnica/src/styles.scss */"./src/styles.scss");
+__webpack_require__(/*! C:\Users\Maria Fernanda\Documents\GAP\concesionario\node_modules\@angular\material\prebuilt-themes\pink-bluegrey.css */"./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css");
+module.exports = __webpack_require__(/*! C:\Users\Maria Fernanda\Documents\GAP\concesionario\src\styles.scss */"./src/styles.scss");
 
 
 /***/ })
