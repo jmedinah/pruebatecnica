@@ -1,5 +1,5 @@
 <div *ngIf="car" class="content">
-  <div >
+  <div [class]="classname">
     <mat-card class="card">
       <div>
         <img class="card__image" mat-card-image [src]="car.pictureUrl" alt="">
@@ -28,7 +28,7 @@
           Transmition: {{car.transmition}}
         </span>
         <p class="card__description">
-          Description: {{car.description}}
+          {{ (car.description.length>250)? (car.description | slice:0:250)+'..':(car.description) }}
         </p>
       </mat-card-content>
     </mat-card>

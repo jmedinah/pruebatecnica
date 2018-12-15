@@ -1,3 +1,8 @@
+.header {
+  display: flex;
+  background: #212121;
+}
+
 .select {
   display: inline-block;
   position: relative;
@@ -6,9 +11,14 @@
   text-align: left;
 }
 
-.ng-star-inserted {
-  width: 100%
+.cards-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-app-car-detail{
-  flex: 1;
+
+@media screen and (max-width: 1280px) {
+  .cards-content {
+    flex-direction: column;
+  }
 }

@@ -10,10 +10,16 @@ import { ActivatedRoute } from "@angular/router";
 })
 export class CarDetailComponent implements OnInit {
   car: Car;
+  classname: string;
+
   @Input() id: number;
   constructor(private route: ActivatedRoute, private carService: CarsService) {
     this.route.params.subscribe(params => {
-      console.log(params);
+      if (params.carId !== undefined) {
+        this.classname = "content-size";
+      } else {
+        this.classname = "content-full";
+      }
       this.getCarDetails(params.carId);
     });
   }
@@ -21,7 +27,6 @@ export class CarDetailComponent implements OnInit {
   ngOnInit() {}
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log(changes);
     this.getCarDetails(changes.id.currentValue);
   }
   getCarDetails(id) {

@@ -1,8 +1,4 @@
-<div style="width: 100%;
-display: flex;
-background: #212121;
-flex-direction: row;
-justify-content: center;">
+<div class="header">
   <mat-form-field class="select">
     <mat-select placeholder="Please, choose a car">
       <mat-option *ngFor="let car of carsList" (click)="showCarDetails(car.id,'one')" [value]="car.id">{{car.model}}</mat-option>
@@ -19,7 +15,7 @@ justify-content: center;">
     </mat-select>
   </mat-form-field>
 </div>
-<div style="display: flex;flex-wrap: wrap;flex-direction: row;">
+<div class="cards-content">
 
   <app-car-detail [id]="carIdOne"></app-car-detail>
   <app-car-detail [id]="carIdTwo"></app-car-detail>
